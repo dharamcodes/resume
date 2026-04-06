@@ -1,0 +1,17 @@
+*.aux
+*.log
+*.out
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+*.lof
+*.lot
+*.out
+*.toc
+*.nav
+*.snm
+*.vrb
+*.synctex.gz
+*.synctex(busy)
+*.bib

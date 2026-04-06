@@ -1,0 +1,137 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[top=0.4in,bottom=0.4in,left=0.5in,right=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{0.92}
+
+\setlist[itemize]{leftmargin=12pt,nosep,itemsep=0pt,topsep=1pt,parsep=0pt}
+
+\titleformat{\section}{\normalsize\bfseries\uppercase}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{3pt}
+
+\begin{document}
+
+% === HEADER ===
+\begin{center}
+{\Large \textbf{Dharmendra Awasthi}}\\[2pt]
+{\small Bengaluru, India \;|\; \href{mailto:er.dharamk@gmail.com}{er.dharamk@gmail.com} \;|\; +91-9454318045 \;|\;
+\href{https://www.linkedin.com/in/dharamcodes/}{LinkedIn} \;|\;
+\href{https://github.com/dharamcodes}{GitHub}}
+\end{center}
+
+\vspace{-2pt}
+
+% === SUMMARY ===
+\section{Summary}
+\vspace{1pt}
+Senior Software Engineer with \textbf{9+ years} building large-scale distributed systems and cloud-native microservices. Proven track record scaling services to \textbf{1,500+ TPS}, reducing latency by \textbf{50\%}, and leading engineering teams. Expert in \textbf{Java, Spring Boot, Kafka, AWS}, system design (HLD/LLD), and performance engineering.
+
+\vspace{-1pt}
+
+% === SKILLS ===
+\section{Technical Skills}
+\vspace{1pt}
+\begin{itemize}[leftmargin=12pt,nosep,itemsep=1pt]
+  \item \textbf{Languages:} Java, Python, SQL, Bash
+  \item \textbf{Frameworks:} Spring Boot, Spring Cloud, Spring Data JPA, Hibernate, Spring Security
+  \item \textbf{Architecture:} Microservices, Distributed Systems, Event-Driven, DDD, Event Sourcing, CQRS, Saga Pattern
+  \item \textbf{Messaging:} Apache Kafka, Kafka Streams, Kafka Connect, Outbox Pattern
+  \item \textbf{Databases:} PostgreSQL, MongoDB, Redis, Elasticsearch
+  \item \textbf{Cloud/DevOps:} AWS (EC2, S3, SQS, Lambda, ECS), Docker, Kubernetes, Terraform, CI/CD
+  \item \textbf{APIs \& Testing:} REST, gRPC, OAuth2, JWT, JUnit 5, Mockito, Testcontainers, TDD, SonarQube
+  \item \textbf{Observability:} Prometheus, Grafana, ELK Stack, Splunk
+  \item \textbf{Practices:} System Design (HLD/LLD), Performance Tuning, Capacity Planning, Agile/Scrum
+\end{itemize}
+
+\vspace{-1pt}
+
+% === EXPERIENCE ===
+\section{Professional Experience}
+\vspace{1pt}
+
+\textbf{Senior Software Engineer} \;\textbar\; Luxoft (DXC Technology) \hfill Jul 2024 -- Present
+\begin{itemize}
+  \item Designed and deployed \textbf{Spring Boot microservices} sustaining \textbf{1,500+ TPS}; built \textbf{Kafka pipelines} processing \textbf{2M+ messages/day} across distributed event-driven workflows.
+  \item Owned end-to-end \textbf{HLD/LLD} for features, including failure-mode analysis, API contracts, and CI/CD quality gates.
+  \item Integrated \textbf{Generative AI} into content verification workflows, reducing manual review effort by \textbf{30\%}.
+  \item Improved system resilience by implementing circuit breaker and bulkhead patterns, maintaining \textbf{99.95\% uptime} under production load.
+  \item Established centralized logging and alerting pipelines for proactive anomaly detection and incident response.
+  \item Mentored 2 junior engineers on distributed systems principles, Kafka patterns, and production readiness practices.
+\end{itemize}
+
+\textbf{Lead Engineer} \;\textbar\; Ness Digital Engineering \hfill May 2023 -- May 2024
+\begin{itemize}
+  \item Led delivery of \textbf{Java/Spring Boot microservices}; increased throughput by \textbf{30\%} by implementing \textbf{Redis} caching strategies.
+  \item Designed \textbf{Kafka async pipelines} with feature toggles and executed zero-downtime blue-green deployments.
+  \item Built \textbf{Grafana/Prometheus} observability stack, reducing incident MTTR by \textbf{35\%}.
+  \item Reduced p99 API latency by \textbf{50\%} through query optimization, indexing strategies, and connection pool tuning.
+  \item Coached \textbf{3+ engineers} on design patterns, code quality standards, and operational best practices.
+\end{itemize}
+
+\textbf{Senior Software Engineer II} \;\textbar\; Airtel Africa \hfill Feb 2022 -- May 2023
+\begin{itemize}
+  \item Developed \textbf{Spring Boot microservices} for telecom billing, integrating \textbf{Kafka} event streams across 5+ subsystems.
+  \item Defined API contracts and LLD specifications ensuring consistent error-handling and service interoperability.
+  \item Integrated \textbf{ELK Stack} for centralized log aggregation, enabling real-time issue tracking and root cause analysis.
+  \item Enforced TDD practices (\textbf{95\% code coverage}), SonarQube quality gates, and OpenAPI standards across 3 teams.
+\end{itemize}
+
+\textbf{Senior Software Engineer} \;\textbar\; Aristocrat (B2B Gaming) \hfill Jul 2021 -- Feb 2022
+\begin{itemize}
+  \item Built \textbf{Java microservices} using \textbf{event sourcing and CQRS} patterns with Kafka for concurrent gaming backend.
+  \item Designed scalable asynchronous workflows, reducing peak-load latency by \textbf{35\%}.
+  \item Contributed to architectural governance through design reviews, code reviews.
+\end{itemize}
+
+\textbf{Member of Technical Staff} \;\textbar\; Oracle \hfill Jan 2021 -- Jul 2021
+\begin{itemize}
+  \item Developed \textbf{TMF-compliant REST APIs} using Java and Spring Boot, improving business workflow efficiency by \textbf{50\%}.
+  \item Authored HLD/LLD documentation and API contract specifications for the Offer Management platform.
+  \item Implemented \textbf{Redis caching} and response pagination, reducing API latency from 800ms to \textbf{under 200ms}.
+\end{itemize}
+
+\textbf{Development Consultant} \;\textbar\; CSG International \hfill Sep 2018 -- Nov 2020
+\begin{itemize}
+  \item Developed and maintained \textbf{Java backend services} supporting billing and CRM integration via REST APIs.
+  \item Built a reusable UI component library adopted by 3 teams, accelerating feature delivery by \textbf{25\%}.
+  \item Led UI modernization initiative, migrating legacy interfaces to current frontend frameworks.
+\end{itemize}
+
+\textbf{System Analyst} \;\textbar\; Amdocs \hfill Feb 2017 -- Sep 2018
+\begin{itemize}
+  \item Enhanced legacy \textbf{Java} application performance by \textbf{30\%} through code refactoring and SQL query optimization.
+  \item Performed root cause analysis and production diagnostics for telecom billing systems.
+  \item Maintained \textbf{100\% SLA compliance} through L2/L3 support across critical production environments.
+\end{itemize}
+
+\vspace{-1pt}
+
+% === PROJECTS ===
+\section{Projects}
+\vspace{1pt}
+{\small
+\textbf{smc4j} -- Open-source Java 17 library for Smart Money Concepts in algorithmic trading. \href{https://github.com/smc4j/smc4j}{GitHub} \\
+\textbf{tradesmc-api} -- Spring Boot trading API with SMC strategies, real-time data, and backtesting. \href{https://github.com/dharamcodes/tradesmc-api}{GitHub}
+}
+
+\vspace{-1pt}
+
+% === EDUCATION ===
+\section{Education}
+\vspace{1pt}
+\begin{itemize}[leftmargin=12pt,nosep,itemsep=1pt]
+  \item \textbf{PhD (Part-Time)}, Computer Science, NIT Nagpur \hfill 2025 -- Present
+  \item \textbf{PGDAC}, CDAC Hyderabad \hfill 2016 -- 2017
+  \item \textbf{B.Tech}, BBD University \hfill 2011 -- 2015
+\end{itemize}
+
+\end{document}
