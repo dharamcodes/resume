@@ -53,8 +53,12 @@ Once the AI gives you the raw LaTeX code block, you need to compile it into a st
 3. Overleaf will load a default editor screen. On the left side, you code. On the right side, it shows the PDF.
 4. Delete *all* the default code that Overleaf put in the `main.tex` file.
 5. Paste the final LaTeX code that Claude/ChatGPT generated for you into `main.tex`.
-6. Click the green **Recompile** button at the top. 
-7. Your beautifully formatted PDF will appear on the right! Click the "Download PDF" icon located on the top right of the PDF view.
+6. Click the green **Recompile** button at the top. Your compiled PDF will appear on the right side.
+7. **Review and Make Necessary Changes:**
+   - Look at the right-side preview. Did it spill onto a second page? If yes, edit the text on the left side (like trimming an older job) and hit **Recompile**.
+   - Make sure your links (GitHub/LinkedIn) are correct.
+   - Adjust spacing if necessary by modifying the `\vspace{4pt}` tags to `\vspace{2pt}` if you desperately need extra room.
+8. **Download:** Once it looks perfect and fits on exactly one page, click the "Download PDF" icon located on the top right of the PDF preview window.
 
 #### Option B: The "Local Hacker" Method (CLI tool)
 If you already have a LaTeX distribution (like MacTeX or TeX Live) installed on your machine:
