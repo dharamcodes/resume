@@ -10,123 +10,116 @@
 
 \pagenumbering{gobble}
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{1pt}
-\linespread{0.95}
+\setlength{\parskip}{0pt}
+\linespread{0.90}
 
-\setlist[itemize]{leftmargin=12pt,nosep,itemsep=1.5pt,topsep=2pt,parsep=0pt}
+\setlist[itemize]{leftmargin=12pt,nosep,itemsep=0.5pt,topsep=1pt,parsep=0pt}
 
 \titleformat{\section}{\normalsize\bfseries\uppercase}{}{0pt}{}[\titlerule]
-\titlespacing*{\section}{0pt}{8pt}{3pt}
+\titlespacing*{\section}{0pt}{5pt}{2pt}
 
 \begin{document}
 
 % === HEADER ===
 \begin{center}
-{\Large \textbf{Dharmendra Awasthi}}\\[2pt]
+{\Large \textbf{Dharmendra Awasthi}}\\[1pt]
+{\small Senior Software Engineer (Backend) $\cdot$ Microservices $\cdot$ Java $\cdot$ Cloud (AWS) $\cdot$ LLM}\\[2pt]
 {\small Bengaluru, India \;|\; \href{mailto:er.dharamk@gmail.com}{er.dharamk@gmail.com} \;|\; +91-9454318045 \;|\;
 \href{https://www.linkedin.com/in/dharamcodes/}{LinkedIn} \;|\;
 \href{https://github.com/dharamcodes}{GitHub}}
 \end{center}
 
-\vspace{-4pt}
-
 % === SUMMARY ===
 \section{Summary}
-\vspace{1pt}
-Senior Software Engineer with experience building large-scale distributed systems and cloud-native microservices. Strong expertise in \textbf{Java, Spring Boot, Kafka, and AWS}, with a focus on system design (HLD/LLD), performance engineering, and technical leadership.
-
-\vspace{-1pt}
+\vspace{2pt}
+Senior Software Engineer with \textbf{9+ years} of experience building large-scale distributed systems and cloud-native microservices. Strong expertise in \textbf{Java, Spring Boot, Kafka, and AWS}, with a focus on system design (HLD/LLD), performance engineering, and technical leadership.
 
 % === SKILLS ===
 \section{Technical Skills}
-\vspace{1pt}
-\begin{itemize}[leftmargin=12pt,nosep,itemsep=1pt]
-  \item \textbf{Languages:} Java, Python, SQL, Bash
-  \item \textbf{Frameworks:} Spring Boot, Spring Cloud, Spring Data JPA, Hibernate, Spring Security
-  \item \textbf{Architecture:} Microservices, Distributed Systems, Event-Driven, DDD, Event Sourcing, CQRS, Saga Pattern
-  \item \textbf{Messaging:} Apache Kafka, Kafka Streams, Kafka Connect, Outbox Pattern
-  \item \textbf{Databases:} PostgreSQL, MongoDB, Redis, Elasticsearch
-  \item \textbf{Cloud/DevOps:} AWS (EC2, S3, SQS, Lambda, ECS), Docker, Kubernetes, Terraform, CI/CD
-  \item \textbf{APIs \& Testing:} REST, gRPC, OAuth2, JWT, JUnit 5, Mockito, Testcontainers, TDD, SonarQube
-  \item \textbf{Observability:} Prometheus, Grafana, ELK Stack, Splunk
+\vspace{2pt}
+\begin{itemize}[leftmargin=0pt,nosep,itemsep=1pt,label={}]
+  \item \textbf{Languages \& Frameworks:} Java, Python, SQL, Bash, Spring Boot, Hibernate, JUnit, Mockito
+  \item \textbf{Architecture:} Microservices, Event-Driven Architecture, CQRS, Saga Pattern, Circuit Breaker Pattern
+  \item \textbf{Cloud \& Infra:} AWS (EC2, S3, SQS, Lambda, ECS), Kafka, PostgreSQL, MongoDB, Redis, Elasticsearch
+  \item \textbf{Tools \& Techs:} Docker, Kubernetes, Jenkins, Git, GitHub, REST, Gradle, gRPC, OAuth2, JWT
+  \item \textbf{Observability:} Prometheus, Grafana, ELK Stack, Splunk, Zipkin
   \item \textbf{Practices:} System Design (HLD/LLD), Performance Tuning, Capacity Planning, Agile/Scrum
 \end{itemize}
 
-\vspace{-1pt}
-
 % === EXPERIENCE ===
 \section{Professional Experience}
+\vspace{2pt}
+\textbf{Senior Software Engineer} --- Luxoft (DXC Technology) \hfill Jul 2024 -- Present
+\begin{itemize}[label=\textendash]
+  \item Designed scalable \textbf{distributed systems} using \textbf{Spring Boot microservices} sustaining \textbf{1,500+ TPS}.
+  \item Built Leader-Worker pattern using \textbf{Kafka pipelines} processing \textbf{2M+ msgs/day} in event-driven workflows.
+  \item Owned end-to-end \textbf{HLD/LLD} for features, including failure-mode analysis and CI/CD quality gates.
+  \item Integrated \textbf{Generative AI} into content verification, reducing manual review by \textbf{30\%}.
+  \item Engineered concurrency-safe services with circuit breakers, ensuring scalability and \textbf{99.95\%} uptime.
+  \item Mentored \textbf{2 engineers} on system design, Kafka patterns, and production readiness for project ramp-up.
+\end{itemize}
+
 \vspace{1pt}
-
-\textbf{Senior Software Engineer} - Luxoft (DXC Technology) \hfill Jul 2024 -- Present
-\begin{itemize}
-  \item Designed and deployed \textbf{Spring Boot microservices} sustaining \textbf{1,500+ TPS} with high availability.
-  \item Built Leader-Worker pattern using \textbf{Kafka pipelines}, processing \textbf{2M+ msgs/day} across event-driven workflows.
-  \item Owned end-to-end \textbf{HLD/LLD} for features, including failure-mode analysis, API contracts, and CI/CD quality gates.
-  \item Integrated \textbf{Generative AI} into content verification workflows, reducing manual review effort by \textbf{30\%}.
-  \item Established centralized logging and alerting pipelines for proactive anomaly detection and incident response.
-\end{itemize}
-
-\textbf{Lead Engineer} - Ness Digital Engineering \hfill May 2023 -- May 2024
-\begin{itemize}
-  \item Delivered a greenfield project from inception using \textbf{Java, Spring Boot, and Microservices}.
+\textbf{Lead Engineer} --- Ness Digital Engineering \hfill May 2023 -- May 2024
+\begin{itemize}[label=\textendash]
+  \item Delivered a greenfield project from inception using \textbf{Java, Spring Boot, Spring Cloud, and Microservices}.
   \item Led a team of \textbf{3 engineers} through code reviews, design reviews, and sprint planning.
-  \item Reduced API latency by \textbf{2x} using \textbf{Redis} caching and parallel processing.
+  \item Reduced API latency by \textbf{2x} using \textbf{Redis} caching and concurrent processing.
   \item Designed a runtime \textbf{feature toggle} system, cutting deployment time by \textbf{60\%}.
+  \item Collaborated with cross-functional stakeholders to define technical roadmap and delivery milestones.
 \end{itemize}
 
-\textbf{Senior Software Engineer II} - Airtel Africa \hfill Feb 2022 -- May 2023
-\begin{itemize}
-  \item Built scalable \textbf{microservices} using \textbf{Java and Spring Boot} for telecom billing systems.
+\vspace{1pt}
+\textbf{Senior Software Engineer II} --- Airtel Africa \hfill Feb 2022 -- May 2023
+\begin{itemize}[label=\textendash]
+  \item Built scalable \textbf{microservices} using \textbf{Java and Spring Boot} for telecom billing serving \textbf{10M+ users}.
   \item Delivered a reusable, high-throughput \textbf{Customer Query Management} platform.
-  \item Reduced code duplication using \textbf{Generics and design patterns}, improving maintainability.
-  \item Standardized \textbf{API documentation} with \textbf{OpenAPI/Swagger} across team services.
+  \item Reduced code duplication using \textbf{data structures, algorithms, and design patterns}, improving maintainability.
+  \item Achieved \textbf{95\% test coverage} via TDD and \textbf{SonarQube}; standardized \textbf{OpenAPI/Swagger} across services.
 \end{itemize}
 
-\textbf{Senior Software Engineer} - Aristocrat (B2B Gaming) \hfill Jul 2021 -- Feb 2022
-\begin{itemize}
+\vspace{1pt}
+\textbf{Senior Software Engineer} --- Aristocrat (B2B Gaming) \hfill Jul 2021 -- Feb 2022
+\begin{itemize}[label=\textendash]
   \item Optimized backend \textbf{Java microservices} for Class 2 and Class 3 gaming systems.
-  \item Implemented \textbf{event sourcing} for user history, improving data accuracy and auditability.
-  \item Mentored new engineers, accelerating onboarding and team productivity.
+  \item Engineered \textbf{event sourcing} for user history, improving data accuracy and auditability.
+  \item Improved API scalability with async processing, reducing peak-load latency by \textbf{35\%}.
 \end{itemize}
 
-\textbf{Member of Technical Staff} - Oracle \hfill Jan 2021 -- Jul 2021
-\begin{itemize}
+\vspace{1pt}
+\textbf{Member of Technical Staff} --- Oracle \hfill Jan 2021 -- Jul 2021
+\begin{itemize}[label=\textendash]
   \item Developed \textbf{TMF-compliant REST APIs} in Java/Spring Boot, improving workflow efficiency by \textbf{40\%}.
   \item Authored HLD/LLD and API contract specs for the Offer Management platform.
-  \item Implemented \textbf{Redis caching} and pagination, cutting API latency from 800ms to \textbf{$<$200ms}.
+  \item Implemented \textbf{Redis caching}, \textbf{Testcontainers}, and pagination, cutting latency from 800ms to \textbf{$<$200ms}.
 \end{itemize}
 
-\textbf{Development Consultant} - CSG International \hfill Sep 2018 -- Nov 2020
-\begin{itemize}
+\vspace{1pt}
+\textbf{Development Consultant} --- CSG International \hfill Sep 2018 -- Nov 2020
+\begin{itemize}[label=\textendash]
   \item Developed \textbf{Java backend services} and \textbf{REST APIs} for billing and CRM integration.
   \item Built reusable UI component library adopted by 3 teams, accelerating delivery by \textbf{25\%}.
   \item Led UI modernization, migrating legacy interfaces to modern frontend frameworks.
 \end{itemize}
 
-\textbf{System Analyst} - Amdocs \hfill Feb 2017 -- Sep 2018
-\begin{itemize}
+\vspace{1pt}
+\textbf{System Analyst} --- Amdocs \hfill Feb 2017 -- Sep 2018
+\begin{itemize}[label=\textendash]
   \item Improved legacy \textbf{Java} application performance by \textbf{30\%} via refactoring and SQL optimization.
-  \item Performed root cause analysis and production diagnostics for billing systems.
-  \item Maintained \textbf{100\% SLA compliance} with L2/L3 support across production environments.
+  \item Diagnosed production issues through root cause analysis and system diagnostics.
+  \item Ensured \textbf{100\% SLA compliance} with L2/L3 support across production environments.
 \end{itemize}
-
-\vspace{-1pt}
 
 % === PROJECTS ===
 \section{Projects}
-\vspace{1pt}
-{\small
+\vspace{2pt}
 \textbf{smc4j} -- Open-source Java 17 library for Smart Money Concepts in algorithmic trading. \href{https://github.com/smc4j/smc4j}{GitHub} \\
 \textbf{tradesmc-api} -- Spring Boot trading API with SMC strategies, real-time data, and backtesting. \href{https://github.com/dharamcodes/tradesmc-api}{GitHub}
-}
-
-\vspace{-1pt}
 
 % === EDUCATION ===
 \section{Education}
-\vspace{1pt}
-\begin{itemize}[leftmargin=2pt,nosep,itemsep=1pt,label={}]
+\vspace{2pt}
+\begin{itemize}[leftmargin=0pt,nosep,itemsep=1pt,label={}]
   \item \textbf{PhD (Part-Time)}, Computer Science, NIT Nagpur \hfill 2025 -- Present
   \item \textbf{PGDAC}, CDAC Hyderabad \hfill 2016 -- 2017
   \item \textbf{B.Tech}, BBD University \hfill 2011 -- 2015
